@@ -8,7 +8,4 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
-  <ItemGroup>
-    <Content Remove="appsettings.json" />
-  </ItemGroup>
 </Project>
